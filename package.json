@@ -1,0 +1,22 @@
+{
+  "name": "msg_logger",
+  "version": "0.0.1",
+  "description": "Small utility to send and receive messages for remote debugging",
+  "main": "msg_send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko-metaps/msg_logger.git"
+  },
+  "author": "mp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marko-metaps/msg_logger/issues"
+  },
+  "homepage": "https://github.com/marko-metaps/msg_logger#readme",
+  "dependencies": {
+    "axios": "0.19.0"
+  }
+}
