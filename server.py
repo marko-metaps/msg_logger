@@ -10,6 +10,7 @@ CORS(api) # Cors is needed to make cross requests
 @api.route('/', methods=['POST'])
 def sample():
 	result = request.json
+	print(request)
 	print(result, file=sys.stdout) # Just print out what was received
 	return make_response(jsonify(result))
 
@@ -18,4 +19,4 @@ def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
 
 if __name__ == '__main__':
-    api.run(host = "localhost", port=80)
+    api.run(host = "172.30.10.72", port=81)
